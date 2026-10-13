@@ -1,0 +1,24 @@
+{
+  "name": "ecanexo-api",
+  "version": "1.0.0",
+  "description": "Capa HTTP de ECANEXO. Expone los servicios del backend via REST.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ecanexo-backend": "file:../backend",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
